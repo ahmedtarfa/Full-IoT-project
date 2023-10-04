@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fire Alarm Monitor</title>
+        <!-- Include the Firebase App and Firebase Database libraries -->
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-database.js"></script>
+    </head>
+    <body>
+        <div id="Header">
+             <!--putting in the header link of home page with its title so when we click on it we go directly to this page-->
+            <a href="index.html" id="title">Fire Alarm Monitor</a>
+        </div>
+
+        <div id="div1"> <!--contains all the nex-->
+
+            <div id="bars">
+                <!--each container contains "circular progress" which is the whcite circle and progress value which is the readings in it-->
+                <div class="container"> <!--contains the circle, its reading in it and its caption-->
+                    <div class="circular-progress" id="flameCircularBar"> <!--the circle-->
+                        <span class="progress-value" id="flameValue">000</span> <!--the reading-->
+                    </div>
+                    <!--caption of each circle written under it-->
+                    <span class="text">Flame Sensor</span>
+                </div>
+        
+                <div class="container">
+                    <div class="circular-progress" id="gasCircularBar">
+                        <span class="progress-value" id="gasValue">000</span>
+                    </div>
+        
+                    <span class="text">Gas Sensor</span>
+                </div>
+        
+                <div class="container">
+                    <div class="circular-progress" id="tempCircularBar">
+                        <span class="progress-value" id="tempValue">000</span>
+                    </div>
+        
+                    <span class="text">Temperature</span>
+                </div>
+    
+            </div>
+
+            <span id="auto">Start auto mode</span> <!--to control to on the auto mode-->
+
+            <div class="triangle-up" id="up"></div> <!--contains the arrow that moves to the up-->
+            <!--contains the arrow that moves to the left right and stop as one row next to each other-->
+            <div id="div2"> 
+                <div class="triangle-left" id="left"></div>
+                <div class="circle" id="stop"></div>
+                <div class="triangle-right" id="right"></div>
+            </div>
+            <div class="triangle-down" id="down"></div> <!--contains the arrow that moves to the down-->
+            <!--a paragraph that contains the sentence telling the steps-->
+            <p>
+                Status: 
+                <span id="status"></span>
+            </p>
+
+        </div>
+        <!--link of the java script file-->
+        <script src="move.js"></script>
+        <!--link of the css sheet-->
+        <link rel="stylesheet" href="movestyle.css"></link>
+
+    </body>
+</html>

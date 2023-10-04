@@ -1,0 +1,146 @@
+/*to normalize outline of the website*/
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243, 242, 242);
+}
+#Header {
+    background-color: darkcyan;
+    padding: 15px;/*area of the header*/
+}
+#title { /*Fire Alarm Monitor*/
+    background-color: darkcyan;
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; /*to not be underlined because this is a link*/
+}
+.triangle-up { /*contains the arrow that moves to the up*/
+	/*to make the narrow shape*/
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid darkcyan;
+	margin: auto; /*to make it in the center*/ 
+	margin-bottom: 15px; /*distance between it and the row under wich containe 2 arrows and a circle*/
+	cursor: pointer; /* shape of mouse when it is on it*/
+}
+.triangle-down {
+	/*to make the arrow shape*/
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid darkcyan;
+	margin: auto; /*to make it in the center*/
+	margin-top: 15px; /*distance between it and the row above wich containe 2 narrows and a circle*/
+	cursor: pointer;/* shape of mouse when it is on it*/
+}
+.triangle-left {
+	/*to make the arrow shape*/
+	border-top: 25px solid transparent;
+	border-right: 50px solid darkcyan;
+	border-bottom: 25px solid transparent;
+	cursor: pointer; /* shape of mouse when it is on it*/
+}
+.triangle-right {
+	/*to make the arrow shape*/
+	border-top: 25px solid transparent;
+	border-left: 50px solid darkcyan;
+	border-bottom: 25px solid transparent;
+	cursor: pointer; /* shape of mouse when it is on it*/
+}
+.circle {
+	/*height and width of the circle*/
+	height: 50px;
+	width: 50px;
+	background-color: darkcyan;
+	/*distance between the circle and the 2 arrows left and right it*/
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 50%; /*to be a circle not a rectangle*/
+	cursor: pointer; /* shape of mouse when it is on it*/
+}
+#div1 { /*contains all the shapes*/
+	display: flex; /*to be centered not in the left of the page*/
+    justify-content: center; /*to be centered not in the left of the page*/
+	flex-direction: column; /*to make all elements under each othe in a column */
+	margin-top: 2%; /*distance between the first arrow and the header*/
+}
+#div2 { /*contains the arrow that moves to the left right and stop as one row next to each other*/
+	display: flex;/*to be centered not in the left of the page*/
+    justify-content: center; /*to be centered not in the left of the page*/
+}
+p { /*a paragraph that contains the sentence telling the step*/
+	text-align: center;
+	font-size: 27px;
+    color: darkcyan;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-top: 25px; /*distance between the down arrow and the sentence*/
+}
+#status { /*the current move*/
+	color: black;
+	font-size: 24px;
+}
+#auto { /* to control to on the auto mode*/
+	text-align: center;
+	font-size: 27px;
+	color: black;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 20px; /*distance between it and the up arrow*/
+	margin-top: 20px;
+	cursor: pointer; /* shape of mouse when it is on it*/
+}
+
+#bars { /*all the grey part*/
+    display: flex; /*to be centered not in the left of the page*/
+    justify-content: center; /*to be centered not in the left of the page*/
+}
+.container { /*the white circle and progress value which is the readings in it*/
+    display: inline-flex; /*to be centered not in the left of the page*/
+    width: 120px;
+    padding: 25px 0;
+    row-gap: 7px; /*distance between the circle and its caption*/
+    flex-direction: column; /*to have the caption next to the circle not next to it*/
+    align-items: center; /*to have the caption under the circle exactly in the center*/
+}
+.circular-progress { /*the circle*/
+    height: 75px; /*height and width of the circle*/
+    width: 75px;
+    border-radius: 50%; /*to be a circle not a rectangle*/
+    background: conic-gradient(darkcyan 0deg, #d3d3d3 0deg);/*to have the circle grey and then with its color*/
+    display: flex;/*to be centered not in the left of the page*/
+    align-items: center;/*to have the caption under the circle exactly in the center*/
+    justify-content: center;/*to be centered not in the left of the page*/
+}
+.circular-progress::before { /*circle before readings (white circle in circular progress)*/
+    content: ""; /*to have this thickness of the colored border*/
+    position: absolute; /*fixed*/
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;/*to be a circle not a rectangle*/
+    background-color: white;
+}
+.progress-value {/*the reading*/
+    position: relative; /*related to the div position*/
+    font-size: 30px;
+    font-weight: 500;
+    color: darkcyan;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#tempValue { /*reading of temperature*/
+    color: #Ce0106; /*colored assigned to the circle of the temperature reading*/
+}
+#gasValue { /*reading of gas*/
+    color: #018ace; /*colored assigned to the circle of the gas reading*/
+}
+#flameValue { /*reading of flame*/
+    color: #02a44d; /*colored assigned to the circle of the flame reading*/
+}
+.text { /*description under each circle*/
+    font-size: 17px;
+    font-weight: 250;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

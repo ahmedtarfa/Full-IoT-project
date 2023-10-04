@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "201871774286",
+    "firebase_url": "https://iot3-flutter-default-rtdb.firebaseio.com",
+    "project_id": "iot3-flutter",
+    "storage_bucket": "iot3-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201871774286:android:a83559f1235241913c691f",
+        "android_client_info": {
+          "package_name": "com.example.fire_fighting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCNvfd9olzwfTceLlBHNtqSk9kt_dL9yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "201871774286-39oaug3f7ocgf8ttfish82r5qtdoceqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fireFightingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201871774286:android:f9c8378612c4e40a3c691f",
+        "android_client_info": {
+          "package_name": "com.example.iot3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCNvfd9olzwfTceLlBHNtqSk9kt_dL9yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "201871774286-39oaug3f7ocgf8ttfish82r5qtdoceqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fireFightingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201871774286:android:2903a037096475473c691f",
+        "android_client_info": {
+          "package_name": "com.example.iot55"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCNvfd9olzwfTceLlBHNtqSk9kt_dL9yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "201871774286-39oaug3f7ocgf8ttfish82r5qtdoceqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fireFightingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201871774286:android:7ea18fda8da594593c691f",
+        "android_client_info": {
+          "package_name": "com.example.iot66"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCNvfd9olzwfTceLlBHNtqSk9kt_dL9yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201871774286-adfu1dv0gsqaavp0fsathb1cufacrgd1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "201871774286-39oaug3f7ocgf8ttfish82r5qtdoceqt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fireFightingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

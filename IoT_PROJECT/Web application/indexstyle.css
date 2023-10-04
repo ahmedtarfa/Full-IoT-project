@@ -1,0 +1,82 @@
+/*to normalize outline of the website*/
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(243, 242, 242);
+}
+#Header {
+    flex-direction: row; /* all what is written is in a row not under each other*/
+    background-color: darkcyan; /*chosen color*/
+    padding: 15px; /*area of the header*/
+}
+#title { /*Fire Alarm Monitor*/
+    background-color: darkcyan; 
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none; /*to not be underlined because this is a link*/
+}
+#moveRobot {
+    float: right; /* to be in the right of the header*/
+    padding: 4px; /*distance between words and the top and bottom of the header*/
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkcyan; /* if this not written background of the word would be grey*/
+    text-decoration: none;
+}
+#bars { /*all the grey part*/
+    display: flex; /*to be centered not in the left of the page*/
+    justify-content: center; /*to be centered not in the left of the page*/
+    margin-top: 5%; /* distance between this div and the header*/
+}
+.container { /*the white circle and progress value which is the readings in it*/
+    display: inline-flex; /*to be centered not in the left of the page*/
+    width: 400px;
+    padding: 50px 0;
+    row-gap: 30px; /*distance between the circle and its caption*/
+    flex-direction: column; /*to have the caption next to the circle not next to it*/
+    align-items: center; /*to have the caption under the circle exactly in the center*/
+}
+.circular-progress { /*the circle*/
+    height: 200px; /*height and width of the circle*/
+    width: 200px;
+    border-radius: 50%; /*to be a circle not a rectangle*/
+    background: conic-gradient(darkcyan 0deg, #d3d3d3 0deg);/*to have the circle grey and then with its color*/
+    display: flex;/*to be centered not in the left of the page*/
+    align-items: center;/*to have the caption under the circle exactly in the center*/
+    justify-content: center;/*to be centered not in the left of the page*/
+}
+.circular-progress::before { /*circle before readings (white circle in circular progress)*/
+    content: ""; /*to have this thickness of the colored border*/
+    position: absolute; /*fixed*/
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;/*to be a circle not a rectangle*/
+    background-color: white;
+}
+.progress-value {/*the reading*/
+    position: relative; /*related to the div position*/
+    font-size: 60px;
+    font-weight: 600;
+    color: darkcyan;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#tempValue { /*reading of temperature*/
+    color: #Ce0106; /*colored assigned to the circle of the temperature reading*/
+}
+#gasValue { /*reading of gas*/
+    color: #018ace; /*colored assigned to the circle of the gas reading*/
+}
+#flameValue { /*reading of flame*/
+    color: #02a44d; /*colored assigned to the circle of the flame reading*/
+}
+.text { /*description under each circle*/
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

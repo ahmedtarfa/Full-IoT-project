@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>201871774286-s50ddpvub1saqq28p1bttu1ed5kteacf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.201871774286-s50ddpvub1saqq28p1bttu1ed5kteacf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAg7sOB3OqeYDlKTvs9lvAEcgX8oUCUIiw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>201871774286</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.iot66</string>
+	<key>PROJECT_ID</key>
+	<string>iot3-flutter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>iot3-flutter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:201871774286:ios:833e4c451c3c6b063c691f</string>
+	<key>DATABASE_URL</key>
+	<string>https://iot3-flutter-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
